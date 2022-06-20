@@ -1,5 +1,3 @@
-
-
 const fibonacci = (n) => {//n representa numero de posiciones (.length)
     console.log("FIBO 1")
     const num = [0, 1];
@@ -7,10 +5,8 @@ const fibonacci = (n) => {//n representa numero de posiciones (.length)
         num[i] = num[i - 2] + num[i - 1];//resultado = numero anterior + numero actual 
         console.log(num[i]);//n reresenta la ultima posicion
     }
-    
 }
-
-//Mejor forma para número grandes
+//Modo cool y funcional a nivel técnico 
 const fibonacci2 = (n) => {
     let a = 0,
         b = 1,
@@ -23,6 +19,5 @@ const fibonacci2 = (n) => {
         console.log(c);
     }
 }
-
 fibonacci(10);
 fibonacci2(10);

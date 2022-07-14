@@ -54,9 +54,9 @@ const account={
     }
 }
 
-account.deposit(200);
-account.deposit(200);
+// account.deposit(200);
+// account.deposit(200);
 
-account.withdraw(100);
-account.withdraw(100);
-console.log(account);
+// account.withdraw(100);
+// account.withdraw(100);
+// console.log(account);
